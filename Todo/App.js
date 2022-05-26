@@ -29,9 +29,9 @@ export default function App() {
 
   const OnAddHandler = async (text) => {
     if (text.length == 0) {
-      Alert.alert("Hopa!!", "Vezi ca ai vrut sa adaugi o nota vida, boule!", [
+      Alert.alert("Hopa!!", "Nota nu poate sa fie vida!", [
         {
-          text: "Bine ma, vorbeste frumos!",
+          text: "OK",
           onPress: () => console.log("Alert closed"),
         },
       ]);
